@@ -213,9 +213,12 @@ export default function Button(theme) {
           }
         },
         sizeMedium: {
+          padding: '16px 24px',
+          fontWeight: 600,
+          fontSize: 24,
           '& svg': {
-            width: 18,
-            height: 18
+            width: 30,
+            height: 30
           }
         },
         sizeLarge: {

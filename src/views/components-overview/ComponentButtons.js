@@ -240,27 +240,12 @@ const ComponentButtons = () => {
               <MainCard title="Estatus Copu Button">
                 <Grid container spacing={2}>
                   <Grid item>
-                    <Button
-                      variant="contained"
-                      endIcon={<ArrowRight />}
-                      sx={{
-                        fontWeight: 600,
-                        padding: '16px 24px'
-                      }}
-                    >
+                    <Button variant="contained" endIcon={<ArrowRight />}>
                       Primario
                     </Button>
                   </Grid>
                   <Grid item>
-                    <Button
-                      variant="contained"
-                      color="success"
-                      endIcon={<ArrowRight />}
-                      sx={{
-                        fontWeight: 600,
-                        padding: '16px 24px'
-                      }}
-                    >
+                    <Button variant="contained" color="success" endIcon={<ArrowRight />}>
                       Secondario
                     </Button>
                   </Grid>
@@ -270,8 +255,6 @@ const ComponentButtons = () => {
                       color="info"
                       endIcon={<ArrowRight />}
                       sx={{
-                        fontWeight: 600,
-                        padding: '16px 24px',
                         color: 'white',
                         '&:hover': {
                           color: '#A9FACF',
