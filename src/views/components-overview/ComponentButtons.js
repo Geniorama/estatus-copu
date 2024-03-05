@@ -22,7 +22,7 @@ import ToggleButtons from 'sections/components-overview/buttons/ToggleButtons';
 import ButtonGroups from 'sections/components-overview/buttons/ButtonGroups';
 
 // ASSETS
-import { Add, AddCircle, Camera, Edit, EmojiHappy, Home3, Location, MicrophoneSlash, Send, Setting2 } from 'iconsax-react';
+import { Add, AddCircle, Camera, Edit, EmojiHappy, Home3, Location, MicrophoneSlash, Send, Setting2, ArrowRight } from 'iconsax-react';
 
 // STYLES
 const Input = styled('input')({
@@ -237,6 +237,53 @@ const ComponentButtons = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={6}>
             <Stack spacing={3}>
+              <MainCard title="Estatus Copu Button">
+                <Grid container spacing={2}>
+                  <Grid item>
+                    <Button
+                      variant="contained"
+                      endIcon={<ArrowRight />}
+                      sx={{
+                        fontWeight: 600,
+                        padding: '16px 24px'
+                      }}
+                    >
+                      Primario
+                    </Button>
+                  </Grid>
+                  <Grid item>
+                    <Button
+                      variant="contained"
+                      color="success"
+                      endIcon={<ArrowRight />}
+                      sx={{
+                        fontWeight: 600,
+                        padding: '16px 24px'
+                      }}
+                    >
+                      Secondario
+                    </Button>
+                  </Grid>
+                  <Grid item>
+                    <Button
+                      variant="outlined"
+                      color="info"
+                      endIcon={<ArrowRight />}
+                      sx={{
+                        fontWeight: 600,
+                        padding: '16px 24px',
+                        color: 'white',
+                        '&:hover': {
+                          color: '#A9FACF',
+                          backgroundColor: '#2C2C2C'
+                        }
+                      }}
+                    >
+                      Alternativo
+                    </Button>
+                  </Grid>
+                </Grid>
+              </MainCard>
               <MainCard title="Basic Button" codeHighlight codeString={basicButtonCodeString}>
                 <Grid container spacing={2}>
                   <Grid item>

@@ -35,7 +35,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['300', '400', '500', '700']
 
 const config = {
   fontFamily: roboto.style.fontFamily,
-  i18n: 'en',
+  i18n: 'fr',
   menuOrientation: MenuOrientation.VERTICAL,
   menuCaption: true,
   miniDrawer: false,
