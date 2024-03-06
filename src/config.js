@@ -1,5 +1,5 @@
 // NEXT
-import { Roboto } from 'next/font/google';
+// import { Roboto } from 'next/font/google';
 
 // ==============================|| THEME CONSTANT ||============================== //
 
@@ -29,12 +29,12 @@ export const ThemeDirection = {
   RTL: 'rtl'
 };
 
-const roboto = Roboto({ subsets: ['latin'], weight: ['300', '400', '500', '700'] });
+// const roboto = Roboto({ subsets: ['latin'], weight: ['300', '400', '500', '700'] });
 
 // ==============================|| THEME CONFIG ||============================== //
 
 const config = {
-  fontFamily: roboto.style.fontFamily,
+  fontFamily: 'BuenosAires',
   i18n: 'fr',
   menuOrientation: MenuOrientation.VERTICAL,
   menuCaption: true,

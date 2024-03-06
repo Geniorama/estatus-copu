@@ -6,6 +6,37 @@
 /*apex-chart*/
 @import '../../public/assets/third-party/apex-chart.css';
 
+/* fonts */
+
+@font-face {
+  font-family: 'BuenosAires';
+  src: url('./../fonts/BuenosAires/BuenosAires-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'BuenosAires';
+  src: url('./../fonts/BuenosAires/BuenosAires-Light.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Monument';
+  src: url('./../fonts/Monument/Monument-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Monument';
+  src: url('./../fonts/Monument/Monument-Light.otf') format('opentype');
+  font-weight: 400;
+}
+
+
 .css-13ddxbb > * + * {
   margin: 0 !important;
+}
+
+* {
+  font-family: 'BuenosAires', sans-serif;
 }
